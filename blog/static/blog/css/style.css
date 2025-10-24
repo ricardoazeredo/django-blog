@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #5430f5;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+}
+
+.header h1 {
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+.header nav{
+    display: flex;
+}
+
+.header nav a{
+    text-decoration: none;
+    margin-right: .5rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    padding: 2.5rem;
+}
